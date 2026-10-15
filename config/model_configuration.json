@@ -1,0 +1,27 @@
+{
+  "model": "qwen3:8b",
+  "expected_model_id": "500a1f067a9f",
+  "actual_model_id": "500a1f067a9f",
+  "actual_model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+  "server_version": {
+    "version": "0.40.2"
+  },
+  "explicit_request_options": {
+    "temperature": 0.6,
+    "top_k": 20,
+    "top_p": 0.95,
+    "repeat_penalty": 1,
+    "num_ctx": 40960,
+    "num_predict": 32768,
+    "seed": -1
+  },
+  "order_seed": 1602026,
+  "keep_alive": "30m",
+  "web_search": false,
+  "external_tools": false,
+  "architecture": "qwen3",
+  "parameter_count": 8190735360,
+  "quantization": "Q4_K_M",
+  "endpoint": "http://localhost:11434",
+  "configuration_note": "Historical model and server version are pinned; verification refuses substitutions. No host-specific metadata is included."
+}

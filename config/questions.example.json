@@ -1,0 +1,36 @@
+{
+  "purpose": "Demonstration examples only; not submitted coursework questions.",
+  "approved_for_experiment": true,
+  "questions": [
+    {
+      "id": "Q1",
+      "category": "Algebra",
+      "answer_type": "numerical",
+      "question": "Solve 5x + 8 = 28. Give the exact value of x."
+    },
+    {
+      "id": "Q2",
+      "category": "Newton's Method",
+      "answer_type": "numerical",
+      "question": "For f(x) = x² - 10, start at x₀ = 4 and use Newton's method for exactly two iterations. Give x₂ rounded to six decimal places."
+    },
+    {
+      "id": "Q3",
+      "category": "Bisection Method",
+      "answer_type": "numerical",
+      "question": "For f(x) = x³ - 5, start at [1, 2] and perform exactly four bisection iterations. After each midpoint sign test retain the subinterval containing a root. Give the final interval."
+    },
+    {
+      "id": "Q4",
+      "category": "Linear Equations",
+      "answer_type": "numerical",
+      "question": "Solve 3x + y = 11 and x - y = 1. Give x and y."
+    },
+    {
+      "id": "Q5",
+      "category": "Matrix Stability",
+      "answer_type": "binary",
+      "question": "For eₙ₊₁ = Aeₙ with A = [[0.4, 0.1], [0, 0.7]], does eₙ converge to zero for every initial vector e₀? Answer Yes or No."
+    }
+  ]
+}
